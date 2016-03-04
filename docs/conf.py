@@ -51,9 +51,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'bots'
-copyright = u'2015, eppye-bots'
-author = u'eppye-bots'
+project = u'Bots EDI Translator'
+copyright = u'2015, henk-jan ebbers'
+author = u'henk-jan ebbers'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -132,12 +132,12 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = 'images/botslogo_square2.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+html_favicon = 'images/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -227,13 +227,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'bots.tex', u'bots Documentation',
-   u'eppye-bots', 'manual'),
+  (master_doc, 'bots.tex', u'Bots EDI Translator Documentation',
+   u'henk-jan ebbers', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = 'images/botslogo_square2.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -257,7 +257,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'bots', u'bots Documentation',
+    (master_doc, 'bots', u'Bots EDI Translator Documentation',
      [author], 1)
 ]
 
@@ -271,7 +271,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'bots', u'bots Documentation',
+  (master_doc, 'bots', u'Bots EDI Translator Documentation',
    author, 'bots', 'One line description of project.',
    'Miscellaneous'),
 ]
