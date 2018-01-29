@@ -20,7 +20,7 @@ Best way to get the idea of a grammar is to look at the (simple) example in the 
     HEADER,ordernumber1,buyer1,20120524
     LINE,1,article1,24,description1
     LINE,2,article2,288,
-    LINE,3.article3,6,description3
+    LINE,3,article3,6,description3
 
 The corresponding grammer for this file would be:
 
